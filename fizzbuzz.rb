@@ -8,4 +8,3 @@ elseif num % 3 == 0
 elseif num % 2 == 0
   "Buzz"
 end
-end 
