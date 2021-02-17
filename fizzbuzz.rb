@@ -3,8 +3,21 @@
 def fizzbuzz(num)
 if num % 3 == 0 && num % 2 == 0
   "FizzBuzz"
-elseif num % 3 == 0
+elsif num % 3 == 0
   "Fizz"
-elseif num % 2 == 0
+elsif num % 2 == 0
   "Buzz"
 end
+end
+
+
+def fizzbuzz(int)
+  # Why did this operation have to be first? 
+  if int % 3 == 0 && int % 5 == 0
+    "FizzBuzz"
+  elsif int % 3 == 0 
+    "Fizz" 
+  elsif int % 5 == 0 
+    "Buzz"
+  end 
+end 
