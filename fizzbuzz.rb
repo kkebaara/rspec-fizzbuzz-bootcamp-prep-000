@@ -5,5 +5,4 @@ if num % 3 == 0
   "Fizz"
 elsif num % 2 == 0
   "Buzz"
-
 end
